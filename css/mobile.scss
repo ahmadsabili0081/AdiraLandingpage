@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-bg: #FFC400;
+    --second-bg:#FFFFFF;
+    --button-bg: #000;
+}
+@media screen and (max-width:980px) {
+    .container{
+        width: 100%;
+        min-height: 100vh;
+        overflow-x: hidden;
+        .banner{
+            background-position-x: -400px;
+            width:100%;
+            .container-banner{
+                width: 100%;
+                padding: 50px;
+                .box-banner{
+                    width: 50%;
+                    .logo{
+                        p{
+                            margin-top: 15%;
+                        }
+                    }
+                    .img-banner{
+                        width: 100%;
+                        margin-top: 15%;
+                    }
+                    .ellcipse-img{
+                        right: -25%;
+                    }
+                }
+                .box-banner-2{
+                    width: 30%;
+                }
+            }
+        }
+        .slider-adira{
+            padding: 50px;
+            .container-slider-adira{
+                width: 100%;
+            }
+        }
+        .latest-promo{
+            padding: 50px;
+            .container-latest-promo{
+                width: 100%;
+                .row-latest-promo{
+                    .box-latest-promo{
+                        width: 250px;
+                        margin:20px 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:570px) {
+    .container{
+        width: 100%;
+        min-height: 100vh;
+        .banner{
+            width: 100%;
+            min-height: 100vh;
+            background-size: cover;
+            background-image: url(../images/bg-banner.png);
+            background-position-x: -900px;
+            .container-banner{
+                width: 100%;
+                flex-direction: column;
+                padding: 0px 15px;
+                .box-banner{
+                    width: 100%;
+                    .logo{
+                        width: 100%;
+                        img{
+                            width: 90%;
+                            margin-block-start: 7%;
+                        }
+                        p{
+                            margin-block-start: 10%;
+                            text-align: center;
+                        }
+                    }
+                    .ellcipse-img{
+                        left: 0;
+                        top: 103%;
+                    }
+                    .img-banner{
+                        width: 100%;
+                        margin-top: 10%;
+                    }
+                }
+                .box-banner-2{
+                    height: auto;
+                    width: 100%;
+                    .box-banner-2-1{
+                        img{
+                            margin-top: 10%;
+                        }
+                        span{
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+        .slider-adira{
+            padding: 50px 50px;
+            .container-slider-adira{
+                width: 100%;
+                .row-slider-adira{
+                    .box-slider-adira{
+                        width: 100%;
+                        height: 475px;
+                    }
+                    .box-slider-adira-2{
+                        width: 100%;
+                        height: auto;
+                        img{
+                            width: 100%;
+                        }
+                        .img-3{
+                            width: 100%;
+                            height: 325px;
+                        }
+                    }
+                }
+            }
+        }
+        .latest-promo{
+            padding: 50px 10px;
+            .container-latest-promo{
+                width: 100%;
+                .row-latest-promo{
+                    .box-latest-promo{
+                        width: 100%;
+                        margin-top: 5%;
+                    }
+                }
+            }
+        }
+        .product-adira{
+            padding: 100px 10px;
+            .container-product-adira{
+                width: 100%;
+                .row-product-adira{
+                    flex-direction: column;
+                    margin-top: 20%;
+                    .box-product-adira{
+                        width: 90%;
+                        height: 400px;
+                        margin: 0px auto;
+                    }
+                }
+            }
+        }
+        .footer-top{
+            padding: 50px 10px;
+            .container-footer-top{
+                width: 100%;
+                footer{
+                    width: 100%;
+                }
+            }
+        }
+        .footer-bottom{
+            padding: 50px 10px;
+            .container-footer-bottom{
+                width: 100%;
+                footer{
+                    span{
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  --primary-bg: #FFC400;
+  --second-bg:#FFFFFF;
+  --button-bg: #000;
+}
+
+@media screen and (max-width: 980px) {
+  .container {
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  .container .banner {
+    background-position-x: -400px;
+    width: 100%;
+  }
+  .container .banner .container-banner {
+    width: 100%;
+    padding: 50px;
+  }
+  .container .banner .container-banner .box-banner {
+    width: 50%;
+  }
+  .container .banner .container-banner .box-banner .logo p {
+    margin-top: 15%;
+  }
+  .container .banner .container-banner .box-banner .img-banner {
+    width: 100%;
+    margin-top: 15%;
+  }
+  .container .banner .container-banner .box-banner .ellcipse-img {
+    right: -25%;
+  }
+  .container .banner .container-banner .box-banner-2 {
+    width: 30%;
+  }
+  .container .slider-adira {
+    padding: 50px;
+  }
+  .container .slider-adira .container-slider-adira {
+    width: 100%;
+  }
+  .container .latest-promo {
+    padding: 50px;
+  }
+  .container .latest-promo .container-latest-promo {
+    width: 100%;
+  }
+  .container .latest-promo .container-latest-promo .row-latest-promo .box-latest-promo {
+    width: 250px;
+    margin: 20px 10px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .container {
+    width: 100%;
+    min-height: 100vh;
+  }
+  .container .banner {
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-image: url(../images/bg-banner.png);
+    background-position-x: -900px;
+  }
+  .container .banner .container-banner {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0px 15px;
+  }
+  .container .banner .container-banner .box-banner {
+    width: 100%;
+  }
+  .container .banner .container-banner .box-banner .logo {
+    width: 100%;
+  }
+  .container .banner .container-banner .box-banner .logo img {
+    width: 90%;
+    -webkit-margin-before: 7%;
+            margin-block-start: 7%;
+  }
+  .container .banner .container-banner .box-banner .logo p {
+    -webkit-margin-before: 10%;
+            margin-block-start: 10%;
+    text-align: center;
+  }
+  .container .banner .container-banner .box-banner .ellcipse-img {
+    left: 0;
+    top: 103%;
+  }
+  .container .banner .container-banner .box-banner .img-banner {
+    width: 100%;
+    margin-top: 10%;
+  }
+  .container .banner .container-banner .box-banner-2 {
+    height: auto;
+    width: 100%;
+  }
+  .container .banner .container-banner .box-banner-2 .box-banner-2-1 img {
+    margin-top: 10%;
+  }
+  .container .banner .container-banner .box-banner-2 .box-banner-2-1 span {
+    text-align: center;
+  }
+  .container .slider-adira {
+    padding: 50px 50px;
+  }
+  .container .slider-adira .container-slider-adira {
+    width: 100%;
+  }
+  .container .slider-adira .container-slider-adira .row-slider-adira .box-slider-adira {
+    width: 100%;
+    height: 475px;
+  }
+  .container .slider-adira .container-slider-adira .row-slider-adira .box-slider-adira-2 {
+    width: 100%;
+    height: auto;
+  }
+  .container .slider-adira .container-slider-adira .row-slider-adira .box-slider-adira-2 img {
+    width: 100%;
+  }
+  .container .slider-adira .container-slider-adira .row-slider-adira .box-slider-adira-2 .img-3 {
+    width: 100%;
+    height: 325px;
+  }
+  .container .latest-promo {
+    padding: 50px 10px;
+  }
+  .container .latest-promo .container-latest-promo {
+    width: 100%;
+  }
+  .container .latest-promo .container-latest-promo .row-latest-promo .box-latest-promo {
+    width: 100%;
+    margin-top: 5%;
+  }
+  .container .product-adira {
+    padding: 100px 10px;
+  }
+  .container .product-adira .container-product-adira {
+    width: 100%;
+  }
+  .container .product-adira .container-product-adira .row-product-adira {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 20%;
+  }
+  .container .product-adira .container-product-adira .row-product-adira .box-product-adira {
+    width: 90%;
+    height: 400px;
+    margin: 0px auto;
+  }
+  .container .footer-top {
+    padding: 50px 10px;
+  }
+  .container .footer-top .container-footer-top {
+    width: 100%;
+  }
+  .container .footer-top .container-footer-top footer {
+    width: 100%;
+  }
+  .container .footer-bottom {
+    padding: 50px 10px;
+  }
+  .container .footer-bottom .container-footer-bottom {
+    width: 100%;
+  }
+  .container .footer-bottom .container-footer-bottom footer span {
+    font-size: 13px;
+  }
+}
+/*# sourceMappingURL=mobile.css.map */
