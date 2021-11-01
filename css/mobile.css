@@ -88,6 +88,7 @@
   }
   .container .banner .container-banner .box-banner .logo {
     width: 100%;
+    margin-left: 30px;
   }
   .container .banner .container-banner .box-banner .logo img {
     width: 90%;
@@ -97,7 +98,9 @@
   .container .banner .container-banner .box-banner .logo p {
     -webkit-margin-before: 10%;
             margin-block-start: 10%;
+    width: 90%;
     text-align: center;
+    margin-right: 100px;
   }
   .container .banner .container-banner .box-banner .ellcipse-img {
     left: 0;
@@ -126,6 +129,7 @@
   }
   .container .slider-adira .container-adira .box-adira {
     width: 90%;
+    padding: 60px;
     margin: 0px auto;
   }
   .container .slider-adira .container-adira .slider {
@@ -133,7 +137,6 @@
     width: 90%;
     left: 0;
     right: 0;
-    border: 1px solid;
     margin: 0px auto;
     height: auto;
     scrollbar-width: thin;
@@ -141,6 +144,8 @@
   }
   .container .slider-adira .container-adira .slider .slider-item {
     margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
   }
   .container .slider-adira .container-adira .slider::-webkit-scrollbar {
     width: 20px;
