@@ -107,82 +107,150 @@
   padding: 100px 0px;
 }
 
-.container .slider-adira .container-slider-adira {
-  max-width: 1200px;
+.container .slider-adira .container-adira {
   position: relative;
-  height: 500px;
   margin: 0px auto;
+  max-width: 1300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
-.container .slider-adira .container-slider-adira .row-slider-adira .box-slider-adira {
+.container .slider-adira .container-adira .box-adira {
+  text-align: center;
   width: 300px;
+  padding: 30px;
   height: 450px;
-  cursor: -webkit-grabbing;
-  cursor: grabbing;
-  border-radius: 10px;
-  padding: 90px 30px;
   background-color: var(--second-bg);
-}
-
-.container .slider-adira .container-slider-adira .row-slider-adira .box-slider-adira img {
-  margin: 0px auto;
-  display: block;
-}
-
-.container .slider-adira .container-slider-adira .row-slider-adira .box-slider-adira h3 {
-  font-family: "Poppins", sans-serif;
-  text-align: center;
-  margin-top: 10px;
-}
-
-.container .slider-adira .container-slider-adira .row-slider-adira .box-slider-adira p {
-  margin-top: 8%;
-  text-align: center;
-  font-size: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   font-family: "Poppins", sans-serif;
 }
 
-.container .slider-adira .container-slider-adira .row-slider-adira .box-slider-adira-2 {
-  width: 300px;
-  height: 440px;
-  border-radius: 10px;
+.container .slider-adira .container-adira .box-adira h3 {
+  margin: 20px 0px;
+  line-height: 1.3;
+}
+
+.container .slider-adira .container-adira .box-adira span {
+  margin: 20px 0px;
+  line-height: 1.4;
+}
+
+.container .slider-adira .container-adira .slider {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 28%;
+  width: 900px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  height: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[6];
+      grid-template-columns: repeat(6, 1fr);
+  -webkit-column-gap: 70px;
+          column-gap: 70px;
   cursor: -webkit-grab;
   cursor: grab;
+  scrollbar-width: thin;
+  scrollbar-color: #000 #ffffff;
 }
 
-.container .slider-adira .container-slider-adira .row-slider-adira .box-slider-adira-2 .img-3 {
+.container .slider-adira .container-adira .slider .slider-item {
+  margin-bottom: 30px;
   width: 300px;
+  height: 450px;
+}
+
+.container .slider-adira .container-adira .slider .slider-item img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  pointer-events: none;
+}
+
+.container .slider-adira .container-adira .slider .slider-item img.img3 {
+  display: block;
   height: 300px;
   border-radius: 10px 10px 0px 0px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
-.container .slider-adira .container-slider-adira .row-slider-adira .box-slider-adira-2 .text {
+.container .slider-adira .container-adira .slider .slider-item .text {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   width: 100%;
-  height: 150px;
-  background-color: var(--second-bg);
-  margin-top: -5px;
-  padding: 15px;
+  padding: 20px;
   border-radius: 0px 0px 10px 10px;
+  height: auto;
+  margin-top: -2%;
   text-align: center;
-}
-
-.container .slider-adira .container-slider-adira .row-slider-adira .box-slider-adira-2 .text span {
   font-family: "Poppins", sans-serif;
-  font-size: 14px;
+  background-color: var(--second-bg);
 }
 
-.container .slider-adira .container-slider-adira .row-slider-adira .box-slider-adira-2 .text button {
-  padding: 10px 20px;
+.container .slider-adira .container-adira .slider .slider-item .text span {
+  font-size: 13px;
+}
+
+.container .slider-adira .container-adira .slider .slider-item .text button {
   display: block;
   margin: 10px auto;
-  font-family: "Poppins", sans-serif;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  font-weight: bold;
-  color: var(--second-bg);
+  padding: 10px 30px;
   background-color: var(--button-bg);
+  font-family: "Poppins", sans-serif;
+  color: var(--second-bg);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.container .slider-adira .container-adira .slider.active {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+.container .slider-adira .container-adira .slider::-webkit-scrollbar {
+  width: 20px;
+  height: 7px;
+}
+
+.container .slider-adira .container-adira .slider::-webkit-scrollbar-thumb {
+  background: #000;
   border-radius: 10px;
+}
+
+.container .slider-adira .container-adira .slider::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: var(--second-bg);
 }
 
 .container .latest-promo {

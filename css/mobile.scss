@@ -41,8 +41,12 @@
         }
         .slider-adira{
             padding: 50px;
-            .container-slider-adira{
+            height: auto;
+            .container-adira{
                 width: 100%;
+                .slider{
+                    left: 40%;
+                }
             }
         }
         .latest-promo{
@@ -110,25 +114,39 @@
             }
         }
         .slider-adira{
-            padding: 50px 50px;
-            .container-slider-adira{
+            padding: 50px 10px;
+            .container-adira{
                 width: 100%;
-                .row-slider-adira{
-                    .box-slider-adira{
-                        width: 100%;
-                        height: 475px;
+                height: 1000px;
+                .box-adira{
+                    width: 90%;
+                    margin: 0px auto;
+                }
+                .slider{
+                    top: 50%;
+                    width: 90%;
+                    left: 0;
+                    right: 0;
+                    border: 1px solid;
+                    margin: 0px auto;
+                    height: auto;
+                    scrollbar-width: thin;
+                    scrollbar-color: #000 #ffffff;
+                    .slider-item{
+                        margin-top: 40px;
                     }
-                    .box-slider-adira-2{
-                        width: 100%;
-                        height: auto;
-                        img{
-                            width: 100%;
-                        }
-                        .img-3{
-                            width: 100%;
-                            height: 325px;
-                        }
-                    }
+                }
+                .slider::-webkit-scrollbar{
+                    width: 20px;
+                    height: 7px;
+                }
+                .slider::-webkit-scrollbar-thumb{
+                    background: #000;
+                    border-radius: 10px;
+                }
+                .slider::-webkit-scrollbar-track{
+                    border-radius: 10px;
+                    background: var(--second-bg);
                 }
             }
         }
