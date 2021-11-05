@@ -11,10 +11,19 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" type="text/css" href="css/mobile.css">
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
         <link rel="shortcut icon" href="images/Logo-Adira-Finance-Baru-footer-top.png" type="image/x-icon/png">
     </head>
-    <body>
-        <div class="container">
+    <body onload="myLoader()">
+        <div class="container-loader" id="loader">
+            <div class="loader">
+
+            </div>
+        </div>
+        <div class="container" id="hide">
+            <div class="btn"  onclick="btnScrolll()">
+                <i class="fa fa-arrow-up" aria-hidden="true"></i>
+            </div>
             <section class="banner">
                 <div class="container-banner">
                     <div class="box-banner">

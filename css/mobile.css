@@ -11,14 +11,57 @@
   --button-bg: #000;
 }
 
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+  .container .banner {
+    padding: 50px;
+  }
+  .container .slider-adira {
+    width: 100%;
+    padding: 50px;
+  }
+  .container .slider-adira .container-adira {
+    width: 100%;
+  }
+  .container .slider-adira .container-adira .box-adira {
+    height: 427px;
+  }
+  .container .slider-adira .container-adira .slider {
+    left: 40%;
+    width: 65%;
+  }
+  .container .slider-adira .container-adira .slider .slider-item {
+    margin-bottom: 0px;
+  }
+  .container .slider-adira .container-adira .slider .slider-item img.img3 {
+    height: 316px;
+  }
+  .container .latest-promo {
+    padding: 50px;
+  }
+  .container .latest-promo .container-latest-promo {
+    width: 100%;
+  }
+  .container .latest-promo .container-latest-promo .row-latest-promo .box-latest-promo {
+    width: 300px;
+  }
+}
+
 @media screen and (max-width: 980px) {
+  .container-loader {
+    width: 100%;
+  }
+  .container-loader .loader {
+    left: 55%;
+  }
   .container {
     width: 100%;
     min-height: 100vh;
     overflow-x: hidden;
   }
   .container .banner {
-    background-position-x: -400px;
     width: 100%;
   }
   .container .banner .container-banner {
@@ -48,8 +91,18 @@
   .container .slider-adira .container-adira {
     width: 100%;
   }
+  .container .slider-adira .container-adira .box-adira {
+    height: 424px;
+  }
   .container .slider-adira .container-adira .slider {
-    left: 40%;
+    width: 50%;
+    left: 50%;
+  }
+  .container .slider-adira .container-adira .slider .slider-item {
+    margin-bottom: 0px;
+  }
+  .container .slider-adira .container-adira .slider .slider-item img.img3 {
+    height: 317px;
   }
   .container .latest-promo {
     padding: 50px;
@@ -60,6 +113,12 @@
   .container .latest-promo .container-latest-promo .row-latest-promo .box-latest-promo {
     width: 250px;
     margin: 20px 10px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .container .latest-promo .container-latest-promo .row-latest-promo .box-latest-promo {
+    width: 200px;
   }
 }
 

@@ -8,13 +8,58 @@
     --second-bg:#FFFFFF;
     --button-bg: #000;
 }
+@media screen and (max-width:1024px) {
+    .container{
+        width: 100%;
+        .banner{
+            padding: 50px;
+        }
+        .slider-adira{
+            width: 100%;
+            padding: 50px;
+            .container-adira{
+                width: 100%;
+
+                .box-adira{
+                    height: 427px;
+                }
+                .slider{
+                    left: 40%;
+                    width: 65%;
+                    .slider-item{
+                        margin-bottom: 0px;
+                        img.img3{
+                            height: 316px;
+                        }
+                    }
+                }
+            }
+        }
+        .latest-promo{
+            padding: 50px;
+            .container-latest-promo{
+                width: 100%;
+                .row-latest-promo{
+                   .box-latest-promo{
+                       width: 300px;
+                   } 
+                }
+            }
+        }
+    }
+}
 @media screen and (max-width:980px) {
+    .container-loader{
+        width: 100%;
+        .loader{
+            left: 55%;
+        }
+    }
     .container{
         width: 100%;
         min-height: 100vh;
         overflow-x: hidden;
         .banner{
-            background-position-x: -400px;
             width:100%;
             .container-banner{
                 width: 100%;
@@ -44,8 +89,18 @@
             height: auto;
             .container-adira{
                 width: 100%;
+                .box-adira{
+                    height: 424px;
+                }
                 .slider{
-                    left: 40%;
+                    width: 50%;
+                    left: 50%;
+                    .slider-item{
+                        margin-bottom:0px;
+                        img.img3{
+                            height: 317px;
+                        }
+                    }
                 }
             }
         }
@@ -57,6 +112,19 @@
                     .box-latest-promo{
                         width: 250px;
                         margin:20px 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:890px) {
+    .container{
+        .latest-promo{
+            .container-latest-promo{
+                .row-latest-promo{
+                    .box-latest-promo{
+                        width: 200px;
                     }
                 }
             }
